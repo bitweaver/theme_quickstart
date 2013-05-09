@@ -1,0 +1,26 @@
+@import url('../bootstrap/bootstrap.css');
+
+/* tweak bootstrap example... change color of .btn-primary */
+
+.btn-primary {
+	background-color: #BFE5E9;
+	background-image: -moz-linear-gradient(top, #7DCAD7, #02485A);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7DCAD7), to(#02485A));
+	background-image: -webkit-linear-gradient(top, #7DCAD7, #02485A);
+	background-image: -o-linear-gradient(top, #7DCAD7, #02485A);
+	background-image: linear-gradient(to bottom, #7DCAD7, #02485A);
+	background-repeat: repeat-x;
+}
+.btn-primary:active,
+.btn-primary.active {
+	background-color: #02485A \9;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+	background-color: #02485A;
+	*background-color: #02485A;
+}
